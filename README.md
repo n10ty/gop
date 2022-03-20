@@ -10,7 +10,6 @@ See [TOTP](https://en.wikipedia.org/wiki/Time-based_one-time_password) to read m
         Available Commands:
         add         Add new key
         generate    Generate password and copy to clipboard
-        help        Help about any command
         list        List all keys
 
 `gop {add|a} <name> <secret key>` adds a new key to gop.
