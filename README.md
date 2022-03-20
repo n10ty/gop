@@ -1,4 +1,6 @@
-# Gop - Time-based One-time Password (TOTP) console client
+# Gop - time-based one-time password agent
+Agent can generate only 6 digit time-based passwords.
+See [TOTP](https://en.wikipedia.org/wiki/Time-based_one-time_password) to read more about algorithm.
 
 ## Usage
 
