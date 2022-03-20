@@ -34,7 +34,7 @@ There is no such feature as 'aliases' but you can do some workaround:
     $> 570553
 
 ### Keychain
-Keys are stored in a home directory in `.gop.keychain` file.
+Keys are stored at `$HOME/.gop` file.
 
 ## License
 `gop` is licenced under [MIT License](./LICENSE) 

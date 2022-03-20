@@ -17,7 +17,7 @@ import (
 )
 
 // path to keychain file
-var keychainPath = filepath.Join(os.Getenv("HOME"), ".gop.keychain")
+var keychainPath = filepath.Join(os.Getenv("HOME"), ".gop")
 
 // default number of totp digits
 var digits = 6
