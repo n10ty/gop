@@ -64,3 +64,12 @@ func Test_addGetKeyFromKeychain(t *testing.T) {
 		t.Errorf("Error durin add-get key from keychain: expected: %s, actual: %s", key, base32.StdEncoding.EncodeToString(actualKey))
 	}
 }
+
+func Test_hotp(t *testing.T) {
+	key, _ := base32.StdEncoding.DecodeString("L7TXVT75PU52SE3G")
+	code := hotp(key, 1333589, 6)
+	expected := 304098
+	if code != expected {
+		t.Errorf("Error during hotp: expected %d, actual %d", expected, code)
+	}
+}
