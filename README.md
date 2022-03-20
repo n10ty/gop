@@ -1,4 +1,6 @@
 # Gop - one-time password cli agent
+[![Build](https://github.com/n10ty/gop/actions/workflows/test-build.yml/badge.svg?branch=master)](https://github.com/n10ty/gop/actions/workflows/test-build.yml)
+
 Agent can generate only 6 digit time-based passwords.
 See [TOTP](https://en.wikipedia.org/wiki/Time-based_one-time_password) to read more about algorithm.
 
